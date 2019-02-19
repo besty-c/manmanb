@@ -83,6 +83,10 @@
 
         </section>
         <!-- 推荐内容结束 -->
+         <!-- 点击跳转省钱 -->
+         <div id="btn">
+                <a href="">更多优惠>></a>
+            </div>
     </main>
     <!-- 尾部开始 -->
     <footer id="footer">
@@ -127,7 +131,7 @@
 <!-- 推荐 模板 -->
 <script type="text/html" id="reco">
     {{each result value index}}
-    <div class="mui-card-header mui-card-media recommend-ations">
+    <div data-id="{{value.productId}}" class=" box mui-card-header mui-card-media recommend-ations">
         {{@value.productImgSm}}
         <div class="mui-media-body">
             {{value.productName}}

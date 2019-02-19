@@ -34,6 +34,8 @@ $(function(){
         $("#number9").toggleClass("hide")
         $("#number10").toggleClass("hide")
         $("#number11").toggleClass("hide")
+        console.log(1111111);
+        
         // console.log($("#number7").find('a').css()["0"])
         // 修改了 更多href
         $("#number7").find('a').css()["0"].href="javascript:void(0)";
@@ -50,8 +52,13 @@ $(function(){
             
         }
     })
-    
-       
+    // 点击进入商品详情页
+    //    $(".discount").on("tap",".box",function(){
+    //        console.log($(this).data("id"));
+        // var id = $(this).data("id")
+        //    location="/pages/inlanddiscountDetail.html?id="+id;
+           
+    //    })
        
    
     
